@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap');
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+
+
+
+
+body{
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: 36px;
+  line-height: 1.25;
+  color: white;
+}
+
+header{
+  position: fixed;
+  top: 36px;
+  left: 56px;
+  z-index: 1;
+  font-weight: 600;
+}
+
+h1{
+  font-size: 4rem;
+  font-weight: 800;
+}
+
+section{
+  background-color:black;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+img{
+  height: auto;
+  width:auto;
+  max-height:70vh;
+  max-width: 80vw;
+}
+
+div.content{
+  position: relative;
+}
+
+div.content img{
+  position: relative;
+}
+
+div.square{
+  width: 160px;
+  height: 160px;
+  background-color: #edebfa;
+
+  position: absolute;
+  top: 50px;
+  left: -50px;
+}
+
+div.circle{
+  width: 120px;
+  height: 120px;
+  background-color: #007bdb;
+
+  position: absolute;
+  bottom: 50px;
+  right: -50px;
+
+  border-radius: 50%;
+}
+
+section.section-2{
+  background-color: #faf1ec;
+}
+
+section.section-2 div.square {
+  background-color: #e20027;
+}
+
+section.section-2 div.circle {
+  background-color: #00273b;
+}
+
+section.section-3{
+  background-color: #000000;
+}
+
+section.section-3 div.square {
+  background-color: #ffaa00;
+}
+
+section.section-3 div.circle {
+  background-color: #f8fadb;
+}
+
+section.section-4{
+  background-color: #2f5557;
+}
+
+section.section-4 div.square {
+  background-color: #8e2328;
+}
+
+section.section-4 div.circle {
+  background-color: #f6fffb;
+}
+
