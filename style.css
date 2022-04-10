@@ -48,7 +48,15 @@ table {
 
 
 
-
+div.progress{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 0%;
+  height: 2px;
+  background-color: #ffffff;
+  z-index: 1;
+}
 
 body{
   font-family: 'Space Grotesk', sans-serif;
@@ -63,6 +71,12 @@ header{
   left: 56px;
   z-index: 1;
   font-weight: 600;
+
+  transition: color ease 300ms;
+}
+
+header.dark{
+  color: #1d1c1a;
 }
 
 h1{
@@ -81,7 +95,7 @@ section{
 img{
   height: auto;
   width:auto;
-  max-height:70vh;
+  max-height:80vh;
   max-width: 80vw;
 }
 
@@ -125,6 +139,7 @@ section.section-2 div.square {
 
 section.section-2 div.circle {
   background-color: #00273b;
+  z-index: 1;
 }
 
 section.section-3{
@@ -145,6 +160,7 @@ section.section-4{
 
 section.section-4 div.square {
   background-color: #8e2328;
+  z-index:1;
 }
 
 section.section-4 div.circle {
