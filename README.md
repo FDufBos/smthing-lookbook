@@ -10,6 +10,10 @@
  - Parallax
 
 ## 📷 Screenshots 
+
+### Initial view
+
 ![Initial view](https://raw.githubusercontent.com/FDufBos/smthing-lookbook/main/img/screenshot-1.png)
 
+### View of second page entering the third
 ![View of second page entering the third](https://raw.githubusercontent.com/FDufBos/smthing-lookbook/main/img/screenshot-2.png)
